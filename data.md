@@ -27,3 +27,6 @@ struct ClassicThreadInfo {
   map<VarDecl *, vector<int>> ebLowUpGap;
   map<VarDecl *, pair<vector<Stmt *>, vector<Stmt *>>> lowUpArraySubStmt;
 };
+
+map<VarDecl *, int> &allIdxVarVal /// 循环索引变量储存
+
